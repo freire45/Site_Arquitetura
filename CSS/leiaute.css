@@ -1,0 +1,317 @@
+body{
+    font-family: "Arial" sans-serif;
+    background-color: darkgray;
+}
+
+.secaoPrincipal{
+    background-color: antiquewhite;
+    width: 1200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-image: url(../Imagens/Arquitetura.gif);
+    background-repeat: no-repeat;
+    background-size: 520px;
+    background-position: center;
+    
+}
+
+.tituloPrincipal{
+    font-weight: bolder;
+    font-size: 40px;
+    color: 	#363636;
+    margin-left: 10px;
+    padding-top: 180px;
+    margin-bottom: 1px;
+    float: left;
+    position: absolute;
+}
+
+.tituloSecundario{
+    padding-top: 250px;
+    font-weight: bolder;
+    color: #696969;
+    margin-left: 60px;
+    margin-top: 0px;
+    float: left;
+}
+
+.Menu{
+    float: left;
+    margin-left: 538px;
+}
+
+.Menu ol{
+    font-size: 20px;
+    list-style: none;
+    border: medium solid #696969;
+    border-radius: 10px;
+    float: left;
+    margin-left: 2.9%;
+    margin-right: 2.9%;
+    background: white;
+    font-weight: bold;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+}
+
+.Menu ol li{
+    position: relative;
+    float: left;
+    border-right: 1px solid #556B2F;
+}
+
+.Menu ol li a{
+    color: #696969;
+    text-decoration: none;
+    padding: 10px 85.8px;
+    display: block;
+    margin-left: 0px;
+}
+
+.Menu ol li a:hover{
+    background: antiquewhite;
+    color: #696969;
+    -moz-box-shadow: 0 3px 10px 0 white;
+    -webkit-box-shadow: 0 3px 10px 0 white;
+    text-shadow: 0px 0px 5px white;
+}
+
+.Menu ol li ol{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background-color: white;
+    display: none;
+}
+
+.Menu ol li:hover ol, .menu ol li.over ol{
+    display: block;
+}
+
+.Menu ol li ol li{
+    border-radius: 10px;
+    display: block;
+    width: 314px;
+}
+
+.carrossel{
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 305px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    height: 450px;
+    width: 1100px;
+    vertical-align: top;
+    border-radius: 10px;
+    
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.SecaoProjetos{
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;    
+    position: absolute;
+    margin-top: 810px;
+    border-radius: 10px;
+}
+
+.SecaoProjetos h2{
+    float: left;
+    color: #363636;
+    margin-top: 200px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.SecaoProjetos img{
+    width: 640px;
+    height: 400px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.SecaoHistoria{
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;    
+    position: absolute;
+    margin-top: 1314px;
+    border-radius: 10px;
+}
+
+.SecaoHistoria h2{
+    float: left;
+    color: #363636;
+    margin-top: 200px;
+    margin-left: 30px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.SecaoHistoria img{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.Rodape{
+    width: 1200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;    
+    position: absolute;
+    margin-top: 1818px;
+    border-radius: 10px;
+    text-align: center;
+    color: #363636;
+    font-size: 20px;
+}
+
+.Rodape p{
+    font-weight: bolder;
+}
+
+.Rodape2{
+    width: 1200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;    
+    position: absolute;
+    margin-top: 910px;
+    border-radius: 10px;
+    text-align: center;
+    color: #363636;
+    font-size: 20px;
+}
+
+.Rodape2 p{
+    font-weight: bolder;
+}
+
+.Contato{
+    width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    background-color: white;
+    margin-top: 304px;
+    border-radius: 10px;
+}
+
+.Contato form{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: #363636;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Contato form fieldset{
+    border-radius: 10px;
+}
+
+.Contato form button{
+    background-color: #363636;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Contato iframe{
+    margin-left: 260px;
+    margin-top: 75px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
